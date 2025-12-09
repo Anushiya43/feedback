@@ -1,12 +1,15 @@
 from fastapi import FastAPI, HTTPException,Depends
 from pydantic import BaseModel
 import json
+from datetime import datetime
 
 app = FastAPI()
 
 class user_data(BaseModel):
-    star : int
-    detail : str
+    rating : int
+    comment : str
+    timestamp : str
+    
 
 
 
@@ -27,10 +30,12 @@ def add_data(u :user_data):
             data = json.load(file)
         print(data)
         print("...........................")
+        d=datetime.utcnow()
         data.append(
             {
-                    "star":u.star,
-                    "details":u.detail
+                "rating": u.rating,
+                "comment": u.comment,
+                "timestamp":u.timestamp
             }
         )
         with open("feedbackdata.json",'w') as file:

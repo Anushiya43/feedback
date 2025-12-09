@@ -2,8 +2,20 @@ from fastapi import FastAPI, HTTPException,Depends
 from pydantic import BaseModel
 import json
 from datetime import datetime
+from fastapi.middleware.cors import CORSMiddleware
+
+
+
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # or your frontend URL
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 class user_data(BaseModel):
     rating : int

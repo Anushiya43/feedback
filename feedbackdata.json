@@ -2,19 +2,43 @@
     {
         "id": 1,
         "rating": 5,
-        "comment": "string",
-        "timestamp": "string"
+        "comment": "super",
+        "timestamp": "2025-12-09T13:00:00.000Z"
     },
     {
         "id": 2,
         "rating": 5,
-        "comment": "string",
-        "timestamp": "string"
+        "comment": "super",
+        "timestamp": "2025-12-09T13:00:00.000Z"
     },
     {
         "id": 3,
-        "rating": 5,
-        "comment": "string",
-        "timestamp": "string"
+        "rating": 4,
+        "comment": "good",
+        "timestamp": "2025-12-09T13:00:00.000Z"
+    },
+    {
+        "id": 4,
+        "rating": 1,
+        "comment": "bad",
+        "timestamp": "2025-12-09T13:00:00.000Z"
+    },
+    {
+        "id": 5,
+        "rating": 0,
+        "comment": "bad",
+        "timestamp": "2025-12-09T13:00:00.000Z"
+    },
+    {
+        "id": 6,
+        "rating": 4,
+        "comment": "ok",
+        "timestamp": "2025-12-09T13:00:00.000Z"
+    },
+    {
+        "id": 7,
+        "rating": 3,
+        "comment": "not bad",
+        "timestamp": "2025-12-09T13:00:00.000Z"
     }
 ]

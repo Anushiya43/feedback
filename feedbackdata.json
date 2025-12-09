@@ -1,17 +1,20 @@
 [
     {
+        "id": 1,
         "rating": 5,
-        "comment": "Great service",
-        "timestamp": "2025-12-09T10:00:00Z"
+        "comment": "string",
+        "timestamp": "string"
     },
     {
+        "id": 2,
         "rating": 5,
-        "comment": "super",
-        "timestamp": "2025-12-09T10:00:00Z"
+        "comment": "string",
+        "timestamp": "string"
     },
     {
+        "id": 3,
         "rating": 5,
-        "comment": "wow",
-        "timestamp": "2025-12-09T10:00:00Z"
+        "comment": "string",
+        "timestamp": "string"
     }
 ]

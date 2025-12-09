@@ -30,9 +30,11 @@ def add_data(u :user_data):
             data = json.load(file)
         print(data)
         print("...........................")
+        print(len(data))
         d=datetime.utcnow()
         data.append(
             {
+                "id":int(len(data)+1),
                 "rating": u.rating,
                 "comment": u.comment,
                 "timestamp":u.timestamp
